@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.1</jsp-version>
+    <short-name>myTags</short-name>
+    <uri>myUniqueUri</uri>
+
+    <tag>
+        <name>formatTag</name>
+        <tag-class>tags.MyTag</tag-class>
+        <body-content>scripletss</body-content>
+
+        <atributte>
+            <name>color</name>
+            <requiered>true</requiered>
+        </atributte>
+
+        <atributte>
+            <name>font_size</name>
+            <requiered>true</requiered>
+        </atributte>
+
+        <atributte>
+            <name>is_uppercase</name>
+            <requiered>false</requiered>
+        </atributte>
+    </tag>
+</taglib>

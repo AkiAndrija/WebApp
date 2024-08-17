@@ -1,0 +1,616 @@
+26-May-2024 12:29:58.968 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 12:29:58.969 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 12:29:58.969 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:29:58.970 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:29:59.001 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 12:29:59.001 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 12:29:59.001 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 12:29:59.001 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:29:59.002 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:29:59.003 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 12:29:59.003 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 12:29:59.003 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 12:29:59.011 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 12:29:59.528 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:29:59.907 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 12:29:59.916 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 12:30:00.017 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:30:00.025 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 12:30:00 CEST 2024
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:30:00.026 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:30:00.028 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 12:30:00.031 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 12:30:00.054 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 12:30:00.091 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 12:30:00.093 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 12:30:00.094 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 12:30:00.095 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 12:30:00.099 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 12:30:00.160 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 12:30:00.261 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 12:30:00.471 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 12:30:00.471 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 12:30:00.471 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 12:30:00.471 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 12:30:00.472 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1958] milliseconds
+26-May-2024 12:30:00.508 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 12:30:00.508 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 12:30:00.526 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 12:30:00.526 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 12:30:00.541 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 12:30:00.549 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 12:30:00.552 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 12:30:00.759 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:30:00.759 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 12:30:00.934 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 12:30:01.005 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:30:01.095 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 12:30:01.095 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 12:30:01.095 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 12:30:01.105 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 12:30:01.135 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 12:30:01.141 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:30:01.344 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 12:30:01.504 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 12:30:01.690 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,148] ms
+26-May-2024 12:30:01.697 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 12:30:01.697 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:30:01.697 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:30:01.698 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 12:30:01.747 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:30:01.752 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1281] milliseconds
+26-May-2024 12:33:52.280 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 12:33:52.280 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:33:52.300 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 12:33:52.306 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:33:52.355 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:33:52.416 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 12:33:52.431 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:33:58.901 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:58.902 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:58.921 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 12:33:58.921 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 12:33:58.921 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 12:33:58.921 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 12:33:58.923 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 12:33:58.924 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 12:33:58.930 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 12:33:59.313 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:33:59.658 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 12:33:59.667 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 12:33:59.767 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:33:59.768 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 12:33:59.768 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 12:33:59 CEST 2024
+26-May-2024 12:33:59.768 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:59.770 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:33:59.773 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 12:33:59.776 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 12:33:59.806 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 12:33:59.886 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 12:33:59.890 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 12:33:59.897 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 12:33:59.905 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 12:33:59.914 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 12:34:00.047 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 12:34:00.217 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 12:34:00.487 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 12:34:00.488 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 12:34:00.488 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 12:34:00.488 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 12:34:00.488 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1774] milliseconds
+26-May-2024 12:34:00.536 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 12:34:00.536 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 12:34:00.557 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 12:34:00.557 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 12:34:00.580 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 12:34:00.590 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 12:34:00.594 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 12:34:00.861 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:34:00.862 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 12:34:01.043 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 12:34:01.113 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:34:01.243 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 12:34:01.243 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 12:34:01.244 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 12:34:01.254 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 12:34:01.297 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 12:34:01.305 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:34:01.596 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 12:34:01.763 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 12:34:01.878 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,297] ms
+26-May-2024 12:34:01.889 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 12:34:01.889 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:34:01.889 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:34:01.889 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 12:34:01.946 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:34:01.957 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1468] milliseconds
+26-May-2024 12:35:32.276 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 12:35:32.277 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:35:32.311 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 12:35:32.317 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:35:32.350 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:35:32.366 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 12:35:32.377 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 12:45:15.693 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 12:45:15.694 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 12:45:15.694 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 12:45:15.694 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 12:45:15.694 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:15.694 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:15.705 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 12:45:15.705 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 12:45:15.705 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 12:45:15.705 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:15.706 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 12:45:15.707 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 12:45:15.707 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 12:45:15.711 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 12:45:16.076 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:45:16.432 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 12:45:16.445 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 12:45:16 CEST 2024
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 12:45:16.538 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:45:16.539 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:16.539 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:45:16.541 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 12:45:16.543 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 12:45:16.583 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 12:45:16.634 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 12:45:16.637 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 12:45:16.640 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 12:45:16.640 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 12:45:16.644 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 12:45:16.731 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 12:45:16.835 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 12:45:17.070 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 12:45:17.070 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 12:45:17.070 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 12:45:17.070 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 12:45:17.071 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1562] milliseconds
+26-May-2024 12:45:17.101 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 12:45:17.101 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 12:45:17.114 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 12:45:17.114 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 12:45:17.130 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 12:45:17.136 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 12:45:17.138 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 12:45:17.435 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:45:17.435 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 12:45:17.582 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 12:45:17.631 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:45:17.714 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 12:45:17.714 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 12:45:17.715 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 12:45:17.722 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 12:45:17.753 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 12:45:17.758 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:45:17.924 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 12:45:18.083 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 12:45:18.195 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,065] ms
+26-May-2024 12:45:18.203 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 12:45:18.204 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:45:18.204 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:45:18.204 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 12:45:18.281 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:45:18.294 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1223] milliseconds
+26-May-2024 12:48:12.165 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 12:48:12.167 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:48:12.193 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 12:48:12.199 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:48:12.238 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:48:12.240 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 12:48:12.254 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:48:43.162 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 12:48:43.163 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.164 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 12:48:43.176 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 12:48:43.177 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 12:48:43.181 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 12:48:43.480 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:48:43.826 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 12:48:43.833 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 12:48:43.916 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:48:43.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 12:48:43.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 12:48:43 CEST 2024
+26-May-2024 12:48:43.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 12:48:43.917 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 12:48:43.918 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 12:48:43.918 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 12:48:43.918 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 12:48:43.918 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.918 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 12:48:43.921 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 12:48:43.931 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 12:48:43.959 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 12:48:44.001 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 12:48:44.004 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 12:48:44.007 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 12:48:44.008 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 12:48:44.010 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 12:48:44.077 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 12:48:44.166 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 12:48:44.415 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 12:48:44.415 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 12:48:44.415 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 12:48:44.415 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 12:48:44.415 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1422] milliseconds
+26-May-2024 12:48:44.446 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 12:48:44.446 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 12:48:44.458 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 12:48:44.458 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 12:48:44.474 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 12:48:44.480 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 12:48:44.481 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 12:48:44.714 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:48:44.714 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 12:48:44.879 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 12:48:44.939 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:48:45.063 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 12:48:45.064 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 12:48:45.064 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 12:48:45.071 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 12:48:45.098 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 12:48:45.104 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 12:48:45.299 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 12:48:45.438 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 12:48:45.575 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,100] ms
+26-May-2024 12:48:45.587 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 12:48:45.587 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:48:45.587 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 12:48:45.587 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 12:48:45.649 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 12:48:45.663 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1248] milliseconds
+26-May-2024 13:34:08.041 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 13:34:08.042 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:34:08.068 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 13:34:08.091 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:34:08.126 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:34:08.187 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 13:34:08.205 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:34:15.691 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 13:34:15.691 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 13:34:15.691 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:15.692 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:15.711 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 13:34:15.711 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 13:34:15.711 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 13:34:15.711 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 13:34:15.712 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 13:34:15.717 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 13:34:16.094 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:34:16.472 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 13:34:16.483 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 13:34:16.569 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 13:34:16 CEST 2024
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:16.570 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:34:16.573 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 13:34:16.576 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 13:34:16.603 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 13:34:16.648 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 13:34:16.649 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 13:34:16.651 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 13:34:16.651 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 13:34:16.655 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 13:34:16.714 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 13:34:16.810 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 13:34:17.005 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 13:34:17.005 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 13:34:17.005 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 13:34:17.005 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 13:34:17.005 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1542] milliseconds
+26-May-2024 13:34:17.041 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 13:34:17.041 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 13:34:17.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 13:34:17.054 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 13:34:17.069 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 13:34:17.074 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 13:34:17.076 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 13:34:17.292 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:34:17.292 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 13:34:17.431 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 13:34:17.481 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:34:17.598 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 13:34:17.599 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 13:34:17.599 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 13:34:17.606 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 13:34:17.637 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 13:34:17.644 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:34:17.865 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 13:34:18.029 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 13:34:18.159 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,089] ms
+26-May-2024 13:34:18.167 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 13:34:18.168 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:34:18.168 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:34:18.168 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 13:34:18.223 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:34:18.230 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1224] milliseconds
+26-May-2024 13:35:08.979 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 13:35:08.980 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:35:09.009 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 13:35:09.016 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:35:09.058 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:35:09.112 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 13:35:09.125 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:35:16.992 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 13:35:16.992 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:16.993 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:17.006 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 13:35:17.007 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:17.008 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:17.008 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 13:35:17.008 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 13:35:17.008 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 13:35:17.014 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 13:35:17.415 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:35:17.898 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 13:35:17.914 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 13:35:18.021 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:35:18.021 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 13:35:18.021 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 13:35:18 CEST 2024
+26-May-2024 13:35:18.021 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 13:35:18.021 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 13:35:18.022 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 13:35:18.022 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 13:35:18.022 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:35:18.022 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:18.022 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:35:18.024 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@53dbe163
+26-May-2024 13:35:18.028 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 13:35:18.061 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 13:35:18.112 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 13:35:18.114 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 13:35:18.118 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 13:35:18.118 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 13:35:18.122 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 13:35:18.204 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 13:35:18.284 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 13:35:18.490 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 13:35:18.490 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 13:35:18.490 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 13:35:18.490 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 13:35:18.490 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [1702] milliseconds
+26-May-2024 13:35:18.517 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 13:35:18.517 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 13:35:18.529 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 13:35:18.529 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 13:35:18.541 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 13:35:18.547 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 13:35:18.549 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 13:35:18.791 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:35:18.792 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 13:35:18.951 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 13:35:19.006 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:35:19.124 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 13:35:19.124 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1449987177: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 13:35:19.126 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 13:35:19.136 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 13:35:19.177 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 13:35:19.183 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:35:19.378 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 13:35:19.542 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 13:35:19.690 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,148] ms
+26-May-2024 13:35:19.704 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 13:35:19.704 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:35:19.704 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:35:19.704 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 13:35:19.779 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:35:19.786 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1295] milliseconds
+26-May-2024 13:37:24.949 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 13:37:24.951 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:37:24.971 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 13:37:24.981 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:37:25.027 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:37:25.093 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 13:37:25.128 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:37:35.700 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat/9.0.41
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server built:          Dec 3 2020 11:43:00 UTC
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.41.0
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk-15.0.2
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Version:           15.0.2+7-27
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:35.702 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:35.718 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+26-May-2024 13:37:35.718 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+26-May-2024 13:37:35.718 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+26-May-2024 13:37:35.718 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\logging.properties
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib\openejb-javaagent.jar
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp
+26-May-2024 13:37:35.719 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:35.721 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:35.721 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\lib
+26-May-2024 13:37:35.721 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+26-May-2024 13:37:35.721 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+26-May-2024 13:37:35.727 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Korisnik\.jdks\openjdk-20\bin;C:\JAVA\jdk-21.0.1\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;C:\Users\Korisnik\AppData\Local\gitkraken\bin;.]
+26-May-2024 13:37:36.237 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:37:36.752 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+26-May-2024 13:37:36.762 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+26-May-2024 13:37:36.895 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:37:36.896 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+26-May-2024 13:37:36.896 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Sun May 26 13:37:36 CEST 2024
+26-May-2024 13:37:36.896 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.6
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20210114
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 02:27
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:36.897 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee
+26-May-2024 13:37:36.903 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@4b14918a
+26-May-2024 13:37:36.908 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+26-May-2024 13:37:36.961 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\conf\tomee.xml'
+26-May-2024 13:37:37.017 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+26-May-2024 13:37:37.020 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+26-May-2024 13:37:37.023 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+26-May-2024 13:37:37.023 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+26-May-2024 13:37:37.028 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+26-May-2024 13:37:37.110 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+26-May-2024 13:37:37.233 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+26-May-2024 13:37:37.584 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+26-May-2024 13:37:37.585 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+26-May-2024 13:37:37.585 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+26-May-2024 13:37:37.585 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+26-May-2024 13:37:37.585 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [2245] milliseconds
+26-May-2024 13:37:37.639 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+26-May-2024 13:37:37.640 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+26-May-2024 13:37:37.664 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+26-May-2024 13:37:37.665 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat/9.0.41]
+26-May-2024 13:37:37.691 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war]
+26-May-2024 13:37:37.701 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyWebApp3
+26-May-2024 13:37:37.704 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war
+26-May-2024 13:37:37.978 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:37:37.979 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+26-May-2024 13:37:38.137 WARNING [main] org.apache.openejb.config.ReadDescriptors.readTldTaglib Cannot unmarshall the JSP tag library definition file: file:/C:/Users/Korisnik/IdeaProjects/MyWebApp3/target/apache-tomee/webapps/MyWebApp3/WEB-INF/tlds/mytags.tld
+26-May-2024 13:37:38.290 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:37:38.425 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+26-May-2024 13:37:38.426 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyWebApp3.Comp1225970981: Container(type=MANAGED, id=Default Managed Container)
+26-May-2024 13:37:38.426 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+26-May-2024 13:37:38.434 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\temp for stateful session passivation
+26-May-2024 13:37:38.467 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3" loaded.
+26-May-2024 13:37:38.473 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:37:38.690 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3)
+26-May-2024 13:37:38.896 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+26-May-2024 13:37:39.092 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3.war] has finished in [1,399] ms
+26-May-2024 13:37:39.102 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+26-May-2024 13:37:39.102 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:37:39.102 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+26-May-2024 13:37:39.103 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+26-May-2024 13:37:39.170 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:37:39.178 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1593] milliseconds
+26-May-2024 13:42:26.548 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-May-2024 13:42:26.549 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:42:26.571 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+26-May-2024 13:42:26.583 INFO [main] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\Korisnik\IdeaProjects\MyWebApp3\target\apache-tomee\webapps\MyWebApp3
+26-May-2024 13:42:26.633 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+26-May-2024 13:42:26.636 INFO [main] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+26-May-2024 13:42:26.654 INFO [main] jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
